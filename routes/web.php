@@ -20,9 +20,9 @@ Route::get('/about', function () {
 
 Route::get('/gallery', function () {
     return view('Gallery', [
-        "title" => "Gallery"
+        "title" => "Gallery" 
     ]);
 });
 
 Route::resource('/contacts', ContactController::class);
-?>
+?> 
